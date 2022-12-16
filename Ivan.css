@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Martian+Mono:wght@200&display=swap'); 
+*{
+    padding:0;
+    margin:0;
+   
+
+}
+
+        body {
+       
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: rgb(141, 128, 128);
+            background-repeat: no-repeat; border-top-width;
+            font-family: 'Anton', sans-serif;
+            font-family: 'Martian Mono', monospace;
+         
+        }
+
+        #travelform{
+            width:  400px;
+            padding: 100px;
+            text-transform: uppercase;
+            background-color: rgb(215, 207, 207);
+            font-family: 'Anton', sans-serif;
+            font-family: 'Martian Mono', monospace;
+
+        }
+
+
+     .form{
+
+     }
+     .formgroup{
+        margin: 20px 0;
+        position: relative;
+        font-family: 'Roboto Condensed', sans-serif;
+     }
+
+     .formgroup  label{
+        display:inline-block;
+        margin-bottom: 5px;
+        font-family: 'Roboto Condensed', sans-serif;
+        
+
+     }
+
+     .formgroup input{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        font-family: 'Roboto Condensed', sans-serif;
+
+     }
+     .sucess input{
+        border: 3px green solid;
+     }
+
+     .error input{
+        border: 3px red solid;
+
+     }
+     .sucess i.fa-check-circle{
+        visibility:visible;
+        color:green;
+     }
+
+
+
+     .formgroup i {
+        position:absolute;
+        right:10px;
+        top: 35px;
+        visibility: hidden;
+
+     }
+     .sucess i.fa-check-circle{
+        visibility:visible;
+        color:green;
+
+     }
+     .error i.fa-exclamation-circle{
+        visibility: visible;
+        color: red;
+
+
+     }
+
+
+     .formgroup p {
+        font-size: 15px;
+        color: red;
+        visibility: hidden;
+     }
+     .error p {
+         visibility: visible;
+     }
+
+    .btn{
+        width: 4rem;
+        height: auto;
+        font-size: 20px;
+        padding:10px;
+        margin: 0 auto;
+        position: relative;
+        font-family: 'Roboto Condensed', sans-serif;
+
+    }
+    .btn input {
+      width:4rem;
+      height: auto;
+      padding:10px;
+      background-color: rgb(123, 37, 37);
+      color: rgb(250, 249, 249);
+      border: none;
+      font-family: 'Roboto Condensed', sans-serif;
+      border-radius: 2rem;
+      margin: 0 auto;
+      justify-items: center;
+
+  }
+
+ 
+
+  

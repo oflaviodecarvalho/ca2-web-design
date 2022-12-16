@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Handlee&family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Handlee&family=Oswald:wght@700&display=swap');
+
+
+
+
+
+
+
+
+h2 {font-family: 
+'Anton', sans-serif;
+	
+}
+
+
+
+*{
+    padding:0;
+    margin:0;
+   
+
+}
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+			background: url(../images/Flaviobackground.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			background-size: cover;
+			background-color: none;
+			font-family: 'Handlee', cursive;
+        }
+
+        #travelform{
+            width:  400px;
+            padding: 100px;
+            text-transform: uppercase;
+            background-color: #F9FCFF;
+
+        }
+
+
+
+
+     .form{
+
+     }
+     .formgroup{
+        margin: 20px 0;
+        position: relative;
+     }
+
+     .formgroup  label{
+        display:inline-block;
+        margin-bottom: 5px;
+
+     }
+
+     .formgroup input{
+        display: block;
+        width: 100%;
+        padding: 10px;
+
+     }
+     .sucess input{
+        border: 3px green solid;
+     }
+
+     .error input{
+        border: 3px red solid;
+
+     }
+     .sucess i.fa-check-circle{
+        visibility:visible;
+        color:green;
+     }
+
+
+
+     .formgroup i {
+        position:absolute;
+        right:10px;
+        top: 35px;
+        visibility: hidden;
+
+     }
+     .sucess i.fa-check-circle{
+        visibility:visible;
+        color:green;
+
+     }
+     .error i.fa-exclamation-circle{
+        visibility: visible;
+        color: red;
+
+
+     }
+
+
+     .formgroup p {
+        font-size: 15px;
+        color: red;
+        visibility: hidden;
+     }
+     .error p {
+         visibility: visible;
+     }
+
+    .btn{
+        width: 4rem;
+        height: auto;
+        font-size: 25px;
+        padding:10px;
+        margin: 0 auto;
+        position: relative;
+
+    }
+    .btn input {
+      width:6rem;
+      height: auto;
+      padding:10px;
+      background-color: rgb(14, 14, 14);
+      color: rgb(238, 232, 232);
+      border: 1px;
+      border-radius: 4px;
+      margin: 0 auto;
+      justify-items: center;
+
+  }
+
+ 
+
+  
+
+
+  
+
+
+font-family: 'Anton', sans-serif;
+font-family: 'Handlee', cursive;
+font-family: 'Oswald', sans-serif;
